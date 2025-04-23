@@ -1,0 +1,129 @@
+/* Fonte moderna e espaçamento confortável */
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Inter', 'Segoe UI', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Títulos mais suaves e elegantes */
+h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+h2 {
+    color: #DDDDDD;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #CCCCCC;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* Parágrafos com leve recuo e conforto visual */
+p {
+    text-indent: 0;
+    margin-bottom: 15px;
+}
+
+/* Listas com espaçamento moderno */
+ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+/* Linhas divisórias mais suaves */
+hr {
+    border: none;
+    border-top: 1px solid #333333;
+    margin: 30px 0;
+}
+
+/* Botões com estilo elegante */
+.stButton > button {
+    background-color: #1F1F1F;
+    color: #F5F5F5;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.stButton > button:hover {
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    border-color: #555555;
+}
+
+/* Navegação lateral customizada */
+.st-emotion-cache-6qob1r {
+    color: #F5F5F5;
+    font-weight: 500;
+}
+
+.st-emotion-cache-6qob1r:hover {
+    color: #00BFFF;
+}
+
+.st-emotion-cache-6qob1r:active {
+    color: #FFA500;
+}
+
+/* Info boxes, warnings, success */
+[data-testid="stAlert"] {
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+}
+
+/* Ajustes nos ícones e margens */
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Espaçamento interno para containers */
+.block-container {
+    padding: 2rem 3rem;
+}
+
+/* Scrollbar moderna */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+/* Links sutis */
+a {
+    color: #4FC3F7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #81D4FA;
+    text-decoration: underline;
+}
+
